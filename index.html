@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test_Project</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black 
+        }
+
+        caption {
+            font-size: 25px;
+        }
+
+        tr {
+            background-color: rgb(43, 200, 200);
+            font-size: 25px;
+        }
+
+        audio {
+            border: 5px solid black
+        }
+    </style>
+</head>
+
+<body dir="rtl">
+    <h1>دورة HTML</h1>
+    <img src="download.png" height="150" width="150" alt="HTML logo">
+    <h2>وصف الدورة</h2>
+    <p>لغة <strong>HTML</strong> هي طريقة <em>لكتابة وهيكلة صفحات الويب</em>، ولاتعتبر <b>HTML</b> لغة برمجية بالمعنى
+        الفعلي بل هي لغة وصفيّة، أي أنها تستخدم لوصف الصفحة وتوزيع وترتيب محتواها من نصوص وروابط وصور ومقاطع فيديو وما
+        إلى ذلك، وهي المكون الرئيسي لأي موقع ويب، تستخدم HTML مايسمى بالوسوم أو <i>Tags</i> وهي عبارة عن رموز لكل منها
+        مهمة خاصة يقوم بها، فمنها ما يقوم بعرض العنوان ومنها ما يقوم بعرض النصوص ومنها ما يقوم بعرض الصور أو الروابط أو
+        مقاطع الفيديو وهكذا، والمتصفح يفهم هذه الرموز أو الوسوم ويعرضها بالشكل المحدد والمطلوب.</p>
+
+    <p>
+        مواعيد المحضرات يوميا:
+        <br>
+        من الساعة
+        8:00<sub>am</sub>
+        حتى الساعة
+        12:00<sub>pm</sub>
+    </p>
+    <p>مستويات الدورة:
+        <br>
+        1<sup>st</sup> level: أساسيات HTML
+        <br>
+        2<sup>nd</sup> level: مفاهيم متقدمة في HTML
+    </p>
+    <hr>
+
+    <h2>أهداف الدورة</h2>
+    <ol type="i">
+        <li>التعرف على HTML</li>
+        <li>تعلم كل tag</li>
+        <li>طرق اضافة النصوص والفيديوهات وغيرها</li>
+    </ol>
+    <br>
+    <h2>متطلبات الدورة</h2>
+    <ul type="circle">
+        <li>متصفح</li>
+        <li>محرر نصوص</li>
+    </ul>
+
+    <p>للمرجع اضغط </p>
+    <a
+        href="https://satr.codes/courses/12252016-2825-41ef-bc27-ad7338e8ca94/session/02458893-75e8-402c-8eb5-681dc6800f60/view"><strong>هنا</strong></a>
+</body>
+<br><br>
+<video height="400" width="700" controls>
+    <source src="wildlife.mp4" type="Video/mp4">
+    Error!!
+</video>
+<br>
+<audio controls>
+    <source src="gaming.wav" type="audio/wav">
+</audio>
+<br><br>
+
+
+<table>
+    <caption>جدول المحاضرات</caption>
+    <tr>
+        <th>اليوم</th>
+        <th>المكان</th>
+    </tr>
+    <tr>
+        <td>الأحد والإثنين</td>
+        <td>Class A</td>
+    </tr>
+    <tr>
+        <td>الثلاثاء والأربعاء</td>
+        <td>Class B</td>
+    </tr>
+    <tr>
+        <td colspan="2">الخميس
+            عن بعد</td>
+    </tr>
+</table>
+<hr>
+<h2>نموذج الانضمام للدورة</h2>
+<form>
+    <label for="name">اسم المستخدم: </label>
+    <input type="text" id="name"><br><br>
+
+    <label for="gender">الجنس: </label>
+    <input type="radio" id="male" name="gender">
+    <label for="male">ذكر</label>
+    <input type="radio" id="female" name="gender">
+    <label for="female">أنثى</label>
+
+    <br><br>
+
+    <label for="city">اختر مدينتك:</label>
+    <select id="city" name="city">
+        <option value="Madinah">المدينة المنورة</option>
+        <option value="Makkah">مكة المكرمة</option>
+        <option value="Riyadh">الرياض</option>
+        <option value="Jeddah">جدة</option>
+        <option value="Dammam">الدمام</option>
+    </select>
+    <br><br>
+    <label>من أين سمعت عن الدورة؟</label><br>
+    <input type="checkbox" id="friend" name="friend">
+    <label for="friend">صديق</label><br>
+    <input type="checkbox" id="website" name="website">
+    <label for="website">الموقع الاكتروني</label><br>
+    <input type="checkbox" id="social_media" name="social_media">
+    <label for="social_media">التواصل الاجتماعي</label><br><br>
+
+    <input type="submit" value="انضمام">
+</form>
+
+
+</html>
